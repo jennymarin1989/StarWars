@@ -4,16 +4,20 @@ import App from '../../components/App';
 
 describe('App', () => {
 
+  let app;
+
+    beforeEach(() => {
+      app = shallow(<App />);
+    })
+
   describe('renders correctly', () => {
 
     it('renders components correctly', () => {
-      let app = shallow(<App />);
     expect(app).toMatchSnapshot();  
     });
   
     it('renders Title component correctly', () => {
-      let app = shallow(<App />);
-     expect(app.find('title')).toHaveLength(1);
+     expect(app.find('Title')).toHaveLength(1);
     });
 
   });
