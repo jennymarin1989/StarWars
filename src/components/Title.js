@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Title = () => {
+const Title = (props) => {
 
   return (
 
     <div>
-      <h1>LEGO</h1>
+      <h1>{props.title}</h1>
     </div>  
 
   )
