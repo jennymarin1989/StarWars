@@ -4,10 +4,20 @@ import SearchPage from '../../components/SearchPage';
 
 describe ('SearchPage', () =>{
 
+  let search;
+
+  beforeEach( () => {
+    search = shallow(<SearchPage />);
+  })
+
   describe ('renders correctly', () => {
     it('renders component correctly', () => {
-      let search = shallow(<SearchPage />);
      expect(search).toMatchSnapshot(); 
     });
+
+    it('renders input tag correctly', () => {
+      expect(search.find('#input-search')).toHaveLength(1);
+    })
   });
+  
 });

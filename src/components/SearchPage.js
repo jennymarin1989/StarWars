@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const SearchPage = () => {
+class SearchPage extends Component {
 
-  return (
-    <div>
-      <h2>Starwars search</h2>
-    </div>  
-  );
-
+  render () {
+    return (
+      <div>
+        <h2>Starwars search</h2>
+      </div>  
+    );
+  }
 }
 
 export default SearchPage;
