@@ -29,8 +29,8 @@ describe ('StarWarsPage', () =>{
 
   describe('ComponentDidMOunt', () => {
     it('changes state after fetching people from API', () => {
-      return starPage.getPeople('People')
-      .then(data => {
+      return starPage.fetch('https://swapi.co/api/people/?search=luke')
+      .then( data => {
         expect(data).toBeDefined()
         expect(data.results.name).toEqual('Luke Skywalker');
       })
