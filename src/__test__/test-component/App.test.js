@@ -2,7 +2,8 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../../components/App';
 import Button from '../../components/Button';
-import SearchPage from '../../components/SearchPage';
+import SearchPage from '../../components/StarWarsPage';
+import StarWarsPage from '../../components/StarWarsPage';
 
 describe('App', () => {
 
@@ -45,7 +46,7 @@ describe('App', () => {
   describe ('renders searchpage', () => {
     it ('renders searchpage if starwars state is true', () => {
       app.setState({ starwars: true });
-      expect(app.find(SearchPage).exists()).toBe(true);
+      expect(app.find(StarWarsPage).exists()).toBe(true);
     })
   });
 

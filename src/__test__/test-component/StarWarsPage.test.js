@@ -1,22 +1,22 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SearchPage from '../../components/SearchPage';
+import StarWarsPage from '../../components/StarWarsPage';
 
-describe ('SearchPage', () =>{
+describe ('StarWarsPage', () =>{
 
-  let search;
+  let starPage;
 
   beforeEach( () => {
-    search = shallow(<SearchPage />);
+     starPage = shallow(<StarWarsPage />);
   })
 
   describe ('renders correctly', () => {
     it('renders component correctly', () => {
-     expect(search).toMatchSnapshot(); 
+     expect(starPage).toMatchSnapshot(); 
     });
 
     it('renders input tag correctly', () => {
-      expect(search.find('#input-search')).toHaveLength(1);
+      expect(starPage.find(SearchPage)).toHaveLength(1);
     })
   });
   
