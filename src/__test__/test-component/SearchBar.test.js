@@ -22,7 +22,7 @@ describe ('SearchBar', () => {
 
   describe ('initializes state ', () => {
     it('initializes search state successfully', () => {
-      expect(search.state('InputSearch')).toEqual('');
+      expect(search.state('inputSearch')).toEqual('');
     })
   })
 })
