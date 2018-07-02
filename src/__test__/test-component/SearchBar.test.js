@@ -10,7 +10,6 @@ describe ('SearchBar', () => {
     search = shallow(<SearchBar />);
   });
 
-
   describe ('renders correctly', () => {
     it('renders components correctly', () => {
       expect(search).toMatchSnapshot();
@@ -20,4 +19,10 @@ describe ('SearchBar', () => {
       expect(search.find('#search')).toHaveLength(1);
     })
   });
+
+  describe ('initializes state ', () => {
+    it('initializes search state successfully', () => {
+      expect(search.state('InputSearch')).toEqual('');
+    })
+  })
 })
