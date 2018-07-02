@@ -17,9 +17,10 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
-        Starwars search
-</h2>,
+      "children": <input
+        id="input-search"
+        value="Enter a search"
+/>,
     },
     "ref": null,
     "rendered": Object {
@@ -27,11 +28,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Starwars search",
+        "id": "input-search",
+        "value": "Enter a search",
       },
       "ref": null,
-      "rendered": "Starwars search",
-      "type": "h2",
+      "rendered": null,
+      "type": "input",
     },
     "type": "div",
   },
@@ -41,9 +43,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h2>
-          Starwars search
-</h2>,
+        "children": <input
+          id="input-search"
+          value="Enter a search"
+/>,
       },
       "ref": null,
       "rendered": Object {
@@ -51,11 +54,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Starwars search",
+          "id": "input-search",
+          "value": "Enter a search",
         },
         "ref": null,
-        "rendered": "Starwars search",
-        "type": "h2",
+        "rendered": null,
+        "type": "input",
       },
       "type": "div",
     },

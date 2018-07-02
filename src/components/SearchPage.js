@@ -5,7 +5,7 @@ class SearchPage extends Component {
   render () {
     return (
       <div>
-        <h2>Starwars search</h2>
+        <input id='input-search' value="Enter a search"/>
       </div>  
     );
   }
