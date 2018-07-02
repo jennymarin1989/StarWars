@@ -16,7 +16,7 @@ describe ('StarWarsPage', () =>{
     });
 
     it('renders input tag correctly', () => {
-      expect(starPage.find(SearchPage)).toHaveLength(1);
+      expect(starPage.find(SearchBar)).toHaveLength(1);
     })
   });
   
