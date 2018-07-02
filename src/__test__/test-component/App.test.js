@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../../components/App';
 import Button from '../../components/Button';
+import SearchPage from '../../components/SearchPage';
 
 describe('App', () => {
 
@@ -37,9 +38,15 @@ describe('App', () => {
       const mockCLickButton = jest.fn();
       let button2 = shallow(<Button onclick={mockCLickButton} />);
       button2.find('#homepage-button').simulate('click');
-      expect(app.state('starwars')).toBeTruthy(); 
+      expect(mockCLickButton.mock.calls.length).toEqual(1)
     })
-  })
+  });
 
+  describe ('renders searchpage', () => {
+    it ('renders searchpage if starwars state is true', () => {
+      app.setState({ starwars: true });
+      expect(app.find(SearchPage).exists()).toBe(true);
+    })
+  });
 
 })

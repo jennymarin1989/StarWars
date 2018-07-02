@@ -8,6 +8,14 @@ class App extends Component {
     this.state = {
       starwars: false
     }
+   
+    this.handleClick= this.handleClick.bind(this) 
+  }
+  
+  handleClick() {
+    this.setState ({
+      starwars: true
+    })
   }
  
   render () {
@@ -15,7 +23,9 @@ class App extends Component {
       <div>
         <Title header = {"LEGO"}/>
         <Button 
-        image={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"}/>
+          image={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"}
+          onClick={this.handleClick}
+        />
       </div>  
     )
   }

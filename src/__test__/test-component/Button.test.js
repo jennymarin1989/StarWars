@@ -18,6 +18,7 @@ describe ('Button', () => {
     it('passes the props correctly from parent component', () => {
       let imageButton = mount(<Button img={'https://pngtree.com/so/star-wars/2'}/>);
       expect(imageButton.props().img).toBe('https://pngtree.com/so/star-wars/2');
-    })
-  })
+    });
+  });
+  
 })

@@ -7,7 +7,7 @@ const Button = (props) => {
   return (
 
     <div>
-      <button id='homepage-button'><img src={props.image} alt="starwars" width="80px"/></button>
+      <button id='homepage-button' onClick={props.onClick}><img src={props.image} alt="starwars" width="80px"/></button>
     </div>  
   )
 }
