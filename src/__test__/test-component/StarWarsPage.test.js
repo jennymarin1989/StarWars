@@ -20,5 +20,11 @@ describe ('StarWarsPage', () =>{
       expect(starPage.find(SearchBar)).toHaveLength(1);
     })
   });
+
+  describe('initialiazes state successfully', () => {
+    it('initialiazes people state successfully', () => {
+      expect(starPage.state('people')).toEqual([]);
+    })
+  })
   
 });
