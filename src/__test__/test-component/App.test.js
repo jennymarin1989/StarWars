@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../../components/App';
+import Button from '../../components/Button';
 
 describe('App', () => {
 
@@ -27,8 +28,17 @@ describe('App', () => {
 
   describe('Initializes state correctly', () => {
     it('initializes state of starwars button', () => {
-      expect(app.state('starwars')).toBeTruthy();
+      expect(app.state('starwars')).toBeFalsy();
     });
+  });
+
+  describe('changes state correctly', () => {
+    it('changes starwars state on click', () => {
+      const mockCLickButton = jest.fn();
+      let button2 = shallow(<Button onclick={mockCLickButton} />);
+      button2.find('#homepage-button').simulate('click');
+      expect(app.state('starwars')).toBeTruthy(); 
+    })
   })
 
 
