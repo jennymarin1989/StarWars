@@ -22,8 +22,14 @@ describe('App', () => {
 
     it('renders Button component correctly', () => {
       expect(app.find('Button')).toHaveLength(1);
-    })
-
+    });
   });
+
+  describe('Initializes state correctly', () => {
+    it('initializes state of starwars button', () => {
+      expect(app.state('starwars')).toBeTruthy();
+    });
+  })
+
 
 })
