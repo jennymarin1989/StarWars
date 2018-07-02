@@ -1,11 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SearchPage from '../../components/searchPage';
+import SearchPage from '../../components/SearchPage';
 
-describe ('renders correctly', () =>{
+describe ('SearchPage', () =>{
 
-  describe ('renders components correctly', () => {
-    let search = shallow(<SearchPage />);
-   expect(search).toMatchSnapshot(); 
-  })
-})
+  describe ('renders correctly', () => {
+    it('renders component correctly', () => {
+      let search = shallow(<SearchPage />);
+     expect(search).toMatchSnapshot(); 
+    });
+  });
+});
