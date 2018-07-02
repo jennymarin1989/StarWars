@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import StarWarsPage from '../../components/StarWarsPage';
+import SearchBar from '../../components/SearchBar';
 
 describe ('StarWarsPage', () =>{
 

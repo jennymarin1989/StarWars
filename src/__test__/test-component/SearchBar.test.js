@@ -7,7 +7,7 @@ describe ('SearchBar', () => {
   describe ('renders correctly', () => {
     it('renders components correctly', () => {
       let search = shallow(<SearchBar />);
-      expect(search).toMatchSnaphot();
+      expect(search).toMatchSnapshot();
     });
   });
 })
