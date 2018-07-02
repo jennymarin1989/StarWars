@@ -23,6 +23,13 @@ describe ('SearchBar', () => {
   describe ('initializes state ', () => {
     it('initializes search state successfully', () => {
       expect(search.state('inputSearch')).toEqual('');
+    });
+  });
+
+  describe ('changes state of inputSearch', () =>{
+    it('changes the state when enters an input', () => {
+      search.find('#search').simulate('change', {target: { name:"search", value:"People"}})
+      expect(search.find('inputSearch')).toEqual("People");
     })
   })
 })

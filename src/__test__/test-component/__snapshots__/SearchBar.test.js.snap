@@ -23,7 +23,7 @@ ShallowWrapper {
 </h1>,
         <input
           id="search"
-          value="Enter value to search"
+          value={undefined}
 />,
       ],
     },
@@ -46,7 +46,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "id": "search",
-          "value": "Enter value to search",
+          "value": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -67,7 +67,7 @@ ShallowWrapper {
 </h1>,
           <input
             id="search"
-            value="Enter value to search"
+            value={undefined}
 />,
         ],
       },
@@ -90,7 +90,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "id": "search",
-            "value": "Enter value to search",
+            "value": undefined,
           },
           "ref": null,
           "rendered": null,

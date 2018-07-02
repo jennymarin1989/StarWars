@@ -12,7 +12,7 @@ class SearchBar extends Component {
     return(
       <div>
         <h1>Search People from StarWars</h1>
-        <input id="search" value="Enter value to search"/>
+        <input id="search" value={this.props.state}/>
       </div>  
     );
   }
