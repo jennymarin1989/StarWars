@@ -8,6 +8,6 @@ describe ('SearchBar', () => {
     it('renders components correctly', () => {
       let search = shallow(<SearchBar />);
       expect(search).toMatchSnaphot();
-    })
-  })
+    });
+  });
 })
