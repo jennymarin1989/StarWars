@@ -29,7 +29,7 @@ describe ('SearchBar', () => {
   describe ('changes state of inputSearch', () =>{
     it('changes the state when enters an input', () => {
       search.find('#search').simulate('change', {target: { name:"search", value:"People"}})
-      expect(search.find('inputSearch')).toEqual("People");
+      expect(search.state('inputSearch')).toEqual("People");
     })
   })
 })

@@ -6,13 +6,21 @@ class SearchBar extends Component {
     this.state = {
       inputSearch: ''
     }
+    
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange (event) {
+    this.setState({
+      inputSearch: event.target.value
+    });
   }
 
   render(){
     return(
       <div>
         <h1>Search People from StarWars</h1>
-        <input id="search" value={this.props.state}/>
+        <input id="search" value={this.props.state} onChange={this.handleChange}/>
       </div>  
     );
   }

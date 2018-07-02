@@ -23,6 +23,7 @@ ShallowWrapper {
 </h1>,
         <input
           id="search"
+          onChange={[Function]}
           value={undefined}
 />,
       ],
@@ -46,6 +47,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "id": "search",
+          "onChange": [Function],
           "value": undefined,
         },
         "ref": null,
@@ -67,6 +69,7 @@ ShallowWrapper {
 </h1>,
           <input
             id="search"
+            onChange={[Function]}
             value={undefined}
 />,
         ],
@@ -90,6 +93,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "id": "search",
+            "onChange": [Function],
             "value": undefined,
           },
           "ref": null,
