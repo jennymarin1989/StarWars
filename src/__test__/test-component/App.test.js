@@ -20,6 +20,10 @@ describe('App', () => {
      expect(app.find('Title')).toHaveLength(1);
     });
 
+    it('renders Button component correctly', () => {
+      expect(app.find('Button')).toHaveLength(1);
+    })
+
   });
 
 })
