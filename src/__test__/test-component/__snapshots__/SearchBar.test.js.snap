@@ -17,39 +17,30 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <input
-        id="search"
-        value="Enter value to search"
-/>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "id": "search",
-        "value": "Enter value to search",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "input",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <input
+      "children": Array [
+        <h1>
+          Search People from StarWars
+</h1>,
+        <input
           id="search"
           value="Enter value to search"
 />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Search People from StarWars",
+        },
+        "ref": null,
+        "rendered": "Search People from StarWars",
+        "type": "h1",
       },
-      "ref": null,
-      "rendered": Object {
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -61,6 +52,51 @@ ShallowWrapper {
         "rendered": null,
         "type": "input",
       },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Search People from StarWars
+</h1>,
+          <input
+            id="search"
+            value="Enter value to search"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search People from StarWars",
+          },
+          "ref": null,
+          "rendered": "Search People from StarWars",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "search",
+            "value": "Enter value to search",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
       "type": "div",
     },
   ],
