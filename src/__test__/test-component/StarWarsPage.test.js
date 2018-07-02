@@ -24,6 +24,16 @@ describe ('StarWarsPage', () =>{
   describe('initialiazes state successfully', () => {
     it('initialiazes people state successfully', () => {
       expect(starPage.state('people')).toEqual([]);
+    });
+  });
+
+  describe('ComponentDidMOunt', () => {
+    it('changes state after fetching people from API', () => {
+      return starPage.getPeople('People')
+      .then(data => {
+        expect(data).toBeDefined()
+        expect(data.results.name).toEqual('Luke Skywalker');
+      })
     })
   })
   
