@@ -4,10 +4,20 @@ import SearchBar from '../../components/SearchBar';
 
 describe ('SearchBar', () => {
 
+  let search;
+
+  beforeEach( () => {
+    search = shallow(<SearchBar />);
+  });
+
+
   describe ('renders correctly', () => {
     it('renders components correctly', () => {
-      let search = shallow(<SearchBar />);
       expect(search).toMatchSnapshot();
     });
+
+    it('renders search bar correctly', () => {
+      expect(search.find('#search')).toHaveLength(1);
+    })
   });
 })
