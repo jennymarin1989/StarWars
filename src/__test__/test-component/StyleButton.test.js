@@ -6,8 +6,8 @@ import StyleButton from '../../components/styleComponents/StyleButton'
 describe('StyleButton', () =>{
 
   it('returns title with specific style', ()=>{
-    let title = shallow(<StyleButton />)
-    expect(title).toMatchSnapshot();
-    expect(title).toHaveStyleRule( 'height', '100px', 'margin-top', '150px', 'padding-left', '0px', 'padding-right', '0px');
+    let button = shallow(<StyleButton />)
+    expect(button).toMatchSnapshot();
+    expect(button).toHaveStyleRule('height', '100px', 'margin-top', '150px', 'padding-left', '0px', 'padding-right', '0px');
   })
 })
