@@ -7,7 +7,7 @@ const Title = (props) => {
 
     <div>
       <StyleTitle>
-         <h1> { props.header } </h1>
+         <h1 style={{ backgroundColor: 'red', display: 'inline' }}> { props.header } </h1>
       </StyleTitle>
     </div>  
 
