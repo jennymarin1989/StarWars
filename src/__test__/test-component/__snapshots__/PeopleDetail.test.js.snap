@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleDetail component renders components should render components correctly 1`] = `<PeopleDetail />`;
