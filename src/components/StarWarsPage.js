@@ -11,20 +11,25 @@ class StarWarsPage extends Component {
     }
   }
 
+
   componentDidMount(search){
     fetch(`https://swapi.co/api/people/?search=${search}`).then((res) => {
       return res.json();
     }).then((data) => {
-      data.results[0];
-      this.setState({ people: data.results[0]})
+      data.results = data.results.map ((detail) =>{
+        detail.id = detail.name
+        return Object.values(detail)
+      })    
+      this.setState({ people: data.results})
     });
   }
 
   render () {
+    
     return (
       <div>
         <SearchBar onSearch = { search => {this.componentDidMount(search)}}/>
-        <PeopleDetail />
+        <PeopleDetail detail= {this.state.people} />
       </div>  
     );
   }

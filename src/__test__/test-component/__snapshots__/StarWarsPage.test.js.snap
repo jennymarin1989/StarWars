@@ -21,7 +21,9 @@ ShallowWrapper {
         <SearchBar
           onSearch={[Function]}
 />,
-        <PeopleDetail />,
+        <PeopleDetail
+          details={Array []}
+/>,
       ],
     },
     "ref": null,
@@ -41,7 +43,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "details": Array [],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -59,7 +63,9 @@ ShallowWrapper {
           <SearchBar
             onSearch={[Function]}
 />,
-          <PeopleDetail />,
+          <PeopleDetail
+            details={Array []}
+/>,
         ],
       },
       "ref": null,
@@ -79,7 +85,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "details": Array [],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

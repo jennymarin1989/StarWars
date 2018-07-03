@@ -17,9 +17,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        StarWars Character details:
-</h1>,
+      "children": <h1 />,
     },
     "ref": null,
     "rendered": Object {
@@ -27,10 +25,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "StarWars Character details:",
+        "children": undefined,
       },
       "ref": null,
-      "rendered": "StarWars Character details:",
+      "rendered": null,
       "type": "h1",
     },
     "type": "div",
@@ -41,9 +39,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          StarWars Character details:
-</h1>,
+        "children": <h1 />,
       },
       "ref": null,
       "rendered": Object {
@@ -51,10 +47,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "StarWars Character details:",
+          "children": undefined,
         },
         "ref": null,
-        "rendered": "StarWars Character details:",
+        "rendered": null,
         "type": "h1",
       },
       "type": "div",
