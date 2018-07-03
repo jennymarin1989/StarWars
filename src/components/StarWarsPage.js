@@ -29,7 +29,7 @@ class StarWarsPage extends Component {
     return (
       <div>
         <SearchBar onSearch = { search => {this.componentDidMount(search)}}/>
-        <PeopleDetail detail= {this.state.people} />
+        <PeopleDetail details= {this.state.people} />
       </div>  
     );
   }
