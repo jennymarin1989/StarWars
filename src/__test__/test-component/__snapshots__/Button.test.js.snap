@@ -20,11 +20,25 @@ ShallowWrapper {
       "children": <button
         id="homepage-button"
         onClick={undefined}
+        style={
+                Object {
+                        "height": "100px",
+                        "marginTop": "150px",
+                        "paddingLeft": "0px",
+                        "paddingRight": "0px",
+                        "width": "120px",
+                      }
+        }
 >
         <img
                 alt="starwars"
                 src={undefined}
-                width="80px"
+                style={
+                        Object {
+                                "height": "100px",
+                                "width": "120px",
+                              }
+                }
         />
 </button>,
     },
@@ -37,10 +51,22 @@ ShallowWrapper {
         "children": <img
           alt="starwars"
           src={undefined}
-          width="80px"
+          style={
+                    Object {
+                              "height": "100px",
+                              "width": "120px",
+                            }
+          }
 />,
         "id": "homepage-button",
         "onClick": undefined,
+        "style": Object {
+          "height": "100px",
+          "marginTop": "150px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "width": "120px",
+        },
       },
       "ref": null,
       "rendered": Object {
@@ -50,7 +76,10 @@ ShallowWrapper {
         "props": Object {
           "alt": "starwars",
           "src": undefined,
-          "width": "80px",
+          "style": Object {
+            "height": "100px",
+            "width": "120px",
+          },
         },
         "ref": null,
         "rendered": null,
@@ -69,11 +98,25 @@ ShallowWrapper {
         "children": <button
           id="homepage-button"
           onClick={undefined}
+          style={
+                    Object {
+                              "height": "100px",
+                              "marginTop": "150px",
+                              "paddingLeft": "0px",
+                              "paddingRight": "0px",
+                              "width": "120px",
+                            }
+          }
 >
           <img
                     alt="starwars"
                     src={undefined}
-                    width="80px"
+                    style={
+                              Object {
+                                        "height": "100px",
+                                        "width": "120px",
+                                      }
+                    }
           />
 </button>,
       },
@@ -86,10 +129,22 @@ ShallowWrapper {
           "children": <img
             alt="starwars"
             src={undefined}
-            width="80px"
+            style={
+                        Object {
+                                    "height": "100px",
+                                    "width": "120px",
+                                  }
+            }
 />,
           "id": "homepage-button",
           "onClick": undefined,
+          "style": Object {
+            "height": "100px",
+            "marginTop": "150px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "width": "120px",
+          },
         },
         "ref": null,
         "rendered": Object {
@@ -99,7 +154,10 @@ ShallowWrapper {
           "props": Object {
             "alt": "starwars",
             "src": undefined,
-            "width": "80px",
+            "style": Object {
+              "height": "100px",
+              "width": "120px",
+            },
           },
           "ref": null,
           "rendered": null,

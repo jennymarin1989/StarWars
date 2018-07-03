@@ -15,68 +15,66 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
+      "align": "center",
+      "bsClass": "container",
       "children": Array [
-        <Title
-          header="LEGO"
-/>,
-        <Button
-          image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
-          onClick={[Function]}
-/>,
-        null,
+        <Row
+          bsClass="row"
+          componentClass="div"
+          style={
+                    Object {
+                              "backgroundColor": "white",
+                              "height": "50%",
+                            }
+          }
+          width={120}
+>
+          <Title
+                    header="LEGO"
+          />
+</Row>,
+        <Row
+          bsClass="row"
+          componentClass="div"
+>
+          <Button
+                    image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+                    onClick={[Function]}
+          />
+</Row>,
       ],
+      "componentClass": "div",
+      "fluid": false,
+      "style": Object {
+        "backgroundImage": "url(starwars4.jpg)",
+        "backgroundPosition": "center",
+        "height": "-webkit-fill-available",
+        "width": "100%",
+      },
+      "width": 500,
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
-          "header": "LEGO",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      null,
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Title
+          "bsClass": "row",
+          "children": <Title
             header="LEGO"
 />,
-          <Button
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
-            onClick={[Function]}
-/>,
-          null,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
+          "componentClass": "div",
+          "style": Object {
+            "backgroundColor": "white",
+            "height": "50%",
+          },
+          "width": 120,
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
@@ -87,21 +85,155 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "row",
+          "children": Array [
+            <Button
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+              onClick={[Function]}
+/>,
+            null,
+          ],
+          "componentClass": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "align": "center",
+        "bsClass": "container",
+        "children": Array [
+          <Row
+            bsClass="row"
+            componentClass="div"
+            style={
+                        Object {
+                                    "backgroundColor": "white",
+                                    "height": "50%",
+                                  }
+            }
+            width={120}
+>
+            <Title
+                        header="LEGO"
+            />
+</Row>,
+          <Row
+            bsClass="row"
+            componentClass="div"
+>
+            <Button
+                        image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+                        onClick={[Function]}
+            />
+</Row>,
+        ],
+        "componentClass": "div",
+        "fluid": false,
+        "style": Object {
+          "backgroundImage": "url(starwars4.jpg)",
+          "backgroundPosition": "center",
+          "height": "-webkit-fill-available",
+          "width": "100%",
+        },
+        "width": 500,
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png",
-            "onClick": [Function],
+            "bsClass": "row",
+            "children": <Title
+              header="LEGO"
+/>,
+            "componentClass": "div",
+            "style": Object {
+              "backgroundColor": "white",
+              "height": "50%",
+            },
+            "width": 120,
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "header": "LEGO",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
-        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "row",
+            "children": Array [
+              <Button
+                image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+                onClick={[Function]}
+/>,
+              null,
+            ],
+            "componentClass": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
       ],
-      "type": "div",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
