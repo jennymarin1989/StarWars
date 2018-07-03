@@ -2,14 +2,19 @@ import React from 'react';
 
 
 const PeopleDetail = (props) => {
-  const peopleDetails = props.details.map((detail, index) =>{
-   return (
-    <div key={index}><h2>name:{detail[0]} mass:{detail[1]} height:{detail[2]}</h2> </div>
-   );
-  })
+
+  const peopleDetails = props.details.map((detail, index) => {
+
+    return (
+    <div key={index}>
+      <p>{detail[0]}, height: {detail[2]}, birth-year: {detail[6]}, gender: {detail[7]}</p> 
+    </div>
+    );
+  });
+  
   return (
     <div>
-     <h1>{peopleDetails}</h1> 
+     <p style={{fontFamily: 'verdana', fontWeight: 'bold', fontSize: '1.1em', color:'#FFD700'}}>{peopleDetails}</p> 
     </div>  
   );
 }

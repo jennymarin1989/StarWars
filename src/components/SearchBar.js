@@ -20,8 +20,12 @@ class SearchBar extends Component {
   render(){
     return(
       <div>
-        <h1>Search People from StarWars</h1>
-        <input id="search" value={this.props.state} onChange={this.handleChange}/>
+        <input 
+          id="search" 
+          placeholder="Enter a name" 
+          value={this.props.state} 
+          onChange={this.handleChange}
+          style={{width: '200px', height: '25px', borderRadius: '50px', fontSize:'18px'}}/>
       </div>  
     );
   }
