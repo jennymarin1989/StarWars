@@ -10,8 +10,8 @@ class StarWarsPage extends Component {
     }
   }
 
-  componentDidMount(){
-    fetch('https://swapi.co/api/people/?search=r2').then((res) => {
+  componentDidMount(search){
+    fetch(`https://swapi.co/api/people/?search=${search}`).then((res) => {
       return res.json();
     }).then((data) => {
       data.results[0];
@@ -22,7 +22,7 @@ class StarWarsPage extends Component {
   render () {
     return (
       <div>
-        <SearchBar />
+        <SearchBar onSearch = { search => {this.componentDidMount(search)}}/>
       </div>  
     );
   }
