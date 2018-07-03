@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const PeopleDetail = () => {
+const PeopleDetail = (props) => {
   return (
     <div>
      <h1>StarWars Character details:</h1> 
