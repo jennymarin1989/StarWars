@@ -8,6 +8,6 @@ describe('StyleTitle', () =>{
   it('returns title with specific style', ()=>{
     let title = shallow(<StyleTitle />)
     expect(title).toMatchSnapshot();
-    expect(title).toHaveStyleRule('color', 'red', 'border', 'white');
+    expect(title).toHaveStyleRule('color', 'yellow', 'font-family', 'verdana', 'text-align', 'center');
   })
 })

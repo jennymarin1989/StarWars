@@ -1,11 +1,14 @@
 import React from 'react';
+import StyleTitle from './styleComponents/StyleTitle';
 
 const Title = (props) => {
 
   return (
 
     <div>
-      <h1>{props.header}</h1>
+      <StyleTitle>
+         <h1> { props.header } </h1>
+      </StyleTitle>
     </div>  
 
   )
