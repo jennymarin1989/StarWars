@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SearchBar from '../components/SearchBar';
+import PeopleDetail from '../components/PeopleDetail';
 
 
 class StarWarsPage extends Component {
@@ -23,6 +24,7 @@ class StarWarsPage extends Component {
     return (
       <div>
         <SearchBar onSearch = { search => {this.componentDidMount(search)}}/>
+        <PeopleDetail />
       </div>  
     );
   }
