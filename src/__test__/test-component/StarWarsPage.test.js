@@ -32,8 +32,14 @@ describe ('StarWarsPage', () =>{
       return starPage.fetch('https://swapi.co/api/people/?search=luke')
       .then( data => {
         expect(data).toBeDefined()
-        expect(data.results.name).toEqual('Luke Skywalker');
-      })
+        expect(data.results[0].name).toEqual('Luke Skywalker');
+      });
+    });
+  })
+
+  describe("renders People's details", () => {
+    it("returns the people's details from startwars", () => {
+      expect(starPage.find(PeopleDetail)).toHaveLength(1);
     })
   })
   
