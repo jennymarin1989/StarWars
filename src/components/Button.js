@@ -8,6 +8,7 @@ const Button = (props) => {
 
     <div>
       <StyleButton>
+      <h2 style={{color: 'yellow'}}>CLick here to search for People!</h2>
         <button 
           id='homepage-button' 
           onClick={props.onClick}>

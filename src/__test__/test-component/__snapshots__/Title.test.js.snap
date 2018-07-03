@@ -18,7 +18,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <styled.text>
-        <h1>
+        <h1
+                style={
+                        Object {
+                                "backgroundColor": "red",
+                                "display": "inline",
+                              }
+                }
+        >
                  
                  
         </h1>
@@ -30,7 +37,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <h1>
+        "children": <h1
+          style={
+                    Object {
+                              "backgroundColor": "red",
+                              "display": "inline",
+                            }
+          }
+>
            
            
 </h1>,
@@ -46,6 +60,10 @@ ShallowWrapper {
             undefined,
             " ",
           ],
+          "style": Object {
+            "backgroundColor": "red",
+            "display": "inline",
+          },
         },
         "ref": null,
         "rendered": Array [
@@ -66,7 +84,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <styled.text>
-          <h1>
+          <h1
+                    style={
+                              Object {
+                                        "backgroundColor": "red",
+                                        "display": "inline",
+                                      }
+                    }
+          >
                      
                      
           </h1>
@@ -78,7 +103,14 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <h1>
+          "children": <h1
+            style={
+                        Object {
+                                    "backgroundColor": "red",
+                                    "display": "inline",
+                                  }
+            }
+>
              
              
 </h1>,
@@ -94,6 +126,10 @@ ShallowWrapper {
               undefined,
               " ",
             ],
+            "style": Object {
+              "backgroundColor": "red",
+              "display": "inline",
+            },
           },
           "ref": null,
           "rendered": Array [

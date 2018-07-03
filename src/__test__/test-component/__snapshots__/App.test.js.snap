@@ -26,10 +26,10 @@ ShallowWrapper {
           style={
                     Object {
                               "backgroundColor": "white",
-                              "height": "50%",
+                              "paddingBottom": "10px",
                             }
           }
-          width={120}
+          width={100}
 >
           <Title
                     header="LEGO"
@@ -40,10 +40,10 @@ ShallowWrapper {
           componentClass="div"
           style={
                     Object {
-                              "marginTop": "100px",
+                              "marginTop": "70px",
                             }
           }
-          width={120}
+          width={100}
 >
           <Button
                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
@@ -64,8 +64,9 @@ ShallowWrapper {
       "componentClass": "div",
       "fluid": false,
       "style": Object {
-        "backgroundImage": "url(starwars4.jpg)",
+        "backgroundImage": "url(dark.jpg)",
         "backgroundPosition": "center",
+        "backgroundSize": "cover",
         "height": "-webkit-fill-available",
         "width": "100%",
       },
@@ -85,9 +86,9 @@ ShallowWrapper {
           "componentClass": "div",
           "style": Object {
             "backgroundColor": "white",
-            "height": "50%",
+            "paddingBottom": "10px",
           },
-          "width": 120,
+          "width": 100,
         },
         "ref": null,
         "rendered": Object {
@@ -115,9 +116,9 @@ ShallowWrapper {
 />,
           "componentClass": "div",
           "style": Object {
-            "marginTop": "100px",
+            "marginTop": "70px",
           },
-          "width": 120,
+          "width": 100,
         },
         "ref": null,
         "rendered": Object {
@@ -169,10 +170,10 @@ ShallowWrapper {
             style={
                         Object {
                                     "backgroundColor": "white",
-                                    "height": "50%",
+                                    "paddingBottom": "10px",
                                   }
             }
-            width={120}
+            width={100}
 >
             <Title
                         header="LEGO"
@@ -183,10 +184,10 @@ ShallowWrapper {
             componentClass="div"
             style={
                         Object {
-                                    "marginTop": "100px",
+                                    "marginTop": "70px",
                                   }
             }
-            width={120}
+            width={100}
 >
             <Button
                         image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
@@ -207,8 +208,9 @@ ShallowWrapper {
         "componentClass": "div",
         "fluid": false,
         "style": Object {
-          "backgroundImage": "url(starwars4.jpg)",
+          "backgroundImage": "url(dark.jpg)",
           "backgroundPosition": "center",
+          "backgroundSize": "cover",
           "height": "-webkit-fill-available",
           "width": "100%",
         },
@@ -228,9 +230,9 @@ ShallowWrapper {
             "componentClass": "div",
             "style": Object {
               "backgroundColor": "white",
-              "height": "50%",
+              "paddingBottom": "10px",
             },
-            "width": 120,
+            "width": 100,
           },
           "ref": null,
           "rendered": Object {
@@ -258,9 +260,9 @@ ShallowWrapper {
 />,
             "componentClass": "div",
             "style": Object {
-              "marginTop": "100px",
+              "marginTop": "70px",
             },
-            "width": 120,
+            "width": 100,
           },
           "ref": null,
           "rendered": Object {

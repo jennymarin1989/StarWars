@@ -27,10 +27,10 @@ class App extends Component {
         width={500}
         align="center"
         style={{backgroundImage: `url(${Image})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '-webkit-fill-available'}} >
-          <Row width={150} style={{backgroundColor: 'white', paddingBottom:'10px' }}>
+          <Row width={100} style={{backgroundColor: 'white', paddingBottom:'10px' }}>
             <Title header = {"LEGO"}/>
           </Row> 
-          <Row width={100} style={{marginTop: '100px'}}> 
+          <Row width={100} style={{marginTop: '70px'}}> 
             <Button 
               image={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"}
               onClick={this.handleClick}
