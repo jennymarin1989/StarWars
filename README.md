@@ -42,3 +42,13 @@ I've followed Test Driven Development principles, starting with basic tests to r
 To complete this tech test, it was required the use of StarWars API's, so I spent few hours reading the swapi documentation and getting an idea about how to get the data from the endpoint, at the end , I came to the conclusion of using a query to make a GET request to the API.
 
 This project was developed in 2 and half days.
+
+Screenshot of the app:
+
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/42257815-5abcb95c-7f50-11e8-955c-6d619da786af.png" width="700" ="align-center">
+</p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/42257883-c74fa84a-7f50-11e8-82e3-315eb9d1330c.png" width="700" ="align-center">
+</p>
