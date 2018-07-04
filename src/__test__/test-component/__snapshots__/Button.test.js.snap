@@ -21,7 +21,7 @@ ShallowWrapper {
         <h2
           className="button-header"
 >
-          CLick here to search for People!
+          Click here to search for People!
 </h2>,
         <styled.text>
           <button
@@ -44,11 +44,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "CLick here to search for People!",
+          "children": "Click here to search for People!",
           "className": "button-header",
         },
         "ref": null,
-        "rendered": "CLick here to search for People!",
+        "rendered": "Click here to search for People!",
         "type": "h2",
       },
       Object {
@@ -112,7 +112,7 @@ ShallowWrapper {
           <h2
             className="button-header"
 >
-            CLick here to search for People!
+            Click here to search for People!
 </h2>,
           <styled.text>
             <button
@@ -135,11 +135,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "CLick here to search for People!",
+            "children": "Click here to search for People!",
             "className": "button-header",
           },
           "ref": null,
-          "rendered": "CLick here to search for People!",
+          "rendered": "Click here to search for People!",
           "type": "h2",
         },
         Object {
