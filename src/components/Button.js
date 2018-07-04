@@ -1,5 +1,6 @@
 import React from 'react';
 import StyleButton from './styleComponents/StyleButton';
+import './styleComponents/Button.css'
 
 
 const Button = (props) => {
@@ -8,11 +9,11 @@ const Button = (props) => {
 
     <div>
       <StyleButton>
-      <h2 style={{color: 'yellow'}}>CLick here to search for People!</h2>
+      <h2 className="button-header">CLick here to search for People!</h2>
         <button 
           id='homepage-button' 
           onClick={props.onClick}>
-            <img src={props.image} style={{width:'120px', height: '100px'}} alt="starwars"/>
+            <img src={props.image} className="button-image" alt="starwars"/>
         </button>
       </StyleButton >
     </div>  

@@ -22,13 +22,8 @@ ShallowWrapper {
       "children": Array [
         <Row
           bsClass="row"
+          className="row-title"
           componentClass="div"
-          style={
-                    Object {
-                              "backgroundColor": "white",
-                              "paddingBottom": "10px",
-                            }
-          }
           width={100}
 >
           <Title
@@ -37,12 +32,8 @@ ShallowWrapper {
 </Row>,
         <Row
           bsClass="row"
+          className="row-button"
           componentClass="div"
-          style={
-                    Object {
-                              "marginTop": "70px",
-                            }
-          }
           width={100}
 >
           <Button
@@ -52,23 +43,16 @@ ShallowWrapper {
 </Row>,
         <Row
           bsClass="row"
+          className="stars-page"
           componentClass="div"
-          style={
-                    Object {
-                              "marginTop": "50px",
-                            }
-          }
           width={120}
 />,
       ],
+      "className": "grid-style",
       "componentClass": "div",
       "fluid": false,
       "style": Object {
         "backgroundImage": "url(dark.jpg)",
-        "backgroundPosition": "center",
-        "backgroundSize": "cover",
-        "height": "-webkit-fill-available",
-        "width": "100%",
       },
       "width": 500,
     },
@@ -83,11 +67,8 @@ ShallowWrapper {
           "children": <Title
             header="LEGO"
 />,
+          "className": "row-title",
           "componentClass": "div",
-          "style": Object {
-            "backgroundColor": "white",
-            "paddingBottom": "10px",
-          },
           "width": 100,
         },
         "ref": null,
@@ -114,10 +95,8 @@ ShallowWrapper {
             image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
             onClick={[Function]}
 />,
+          "className": "row-button",
           "componentClass": "div",
-          "style": Object {
-            "marginTop": "70px",
-          },
           "width": 100,
         },
         "ref": null,
@@ -142,10 +121,8 @@ ShallowWrapper {
         "props": Object {
           "bsClass": "row",
           "children": null,
+          "className": "stars-page",
           "componentClass": "div",
-          "style": Object {
-            "marginTop": "50px",
-          },
           "width": 120,
         },
         "ref": null,
@@ -166,13 +143,8 @@ ShallowWrapper {
         "children": Array [
           <Row
             bsClass="row"
+            className="row-title"
             componentClass="div"
-            style={
-                        Object {
-                                    "backgroundColor": "white",
-                                    "paddingBottom": "10px",
-                                  }
-            }
             width={100}
 >
             <Title
@@ -181,12 +153,8 @@ ShallowWrapper {
 </Row>,
           <Row
             bsClass="row"
+            className="row-button"
             componentClass="div"
-            style={
-                        Object {
-                                    "marginTop": "70px",
-                                  }
-            }
             width={100}
 >
             <Button
@@ -196,23 +164,16 @@ ShallowWrapper {
 </Row>,
           <Row
             bsClass="row"
+            className="stars-page"
             componentClass="div"
-            style={
-                        Object {
-                                    "marginTop": "50px",
-                                  }
-            }
             width={120}
 />,
         ],
+        "className": "grid-style",
         "componentClass": "div",
         "fluid": false,
         "style": Object {
           "backgroundImage": "url(dark.jpg)",
-          "backgroundPosition": "center",
-          "backgroundSize": "cover",
-          "height": "-webkit-fill-available",
-          "width": "100%",
         },
         "width": 500,
       },
@@ -227,11 +188,8 @@ ShallowWrapper {
             "children": <Title
               header="LEGO"
 />,
+            "className": "row-title",
             "componentClass": "div",
-            "style": Object {
-              "backgroundColor": "white",
-              "paddingBottom": "10px",
-            },
             "width": 100,
           },
           "ref": null,
@@ -258,10 +216,8 @@ ShallowWrapper {
               image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
               onClick={[Function]}
 />,
+            "className": "row-button",
             "componentClass": "div",
-            "style": Object {
-              "marginTop": "70px",
-            },
             "width": 100,
           },
           "ref": null,
@@ -286,10 +242,8 @@ ShallowWrapper {
           "props": Object {
             "bsClass": "row",
             "children": null,
+            "className": "stars-page",
             "componentClass": "div",
-            "style": Object {
-              "marginTop": "50px",
-            },
             "width": 120,
           },
           "ref": null,
