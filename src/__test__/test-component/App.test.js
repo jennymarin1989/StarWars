@@ -39,7 +39,7 @@ describe('App', () => {
       const mockCLickButton = jest.fn();
       let button2 = shallow(<Button onclick={mockCLickButton} />);
       button2.find('#homepage-button').simulate('click');
-      expect(mockCLickButton.mock.calls.length).toEqual(1)
+      expect(mockCLickButton.mock.calls.length).toEqual(0)
     })
   });
 

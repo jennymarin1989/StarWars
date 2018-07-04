@@ -9,6 +9,7 @@ class StarWarsPage extends Component {
     this.state = {
       people: []
     }
+    this.componentDidMount = this.componentDidMount.bind(this)
   }
 
 

@@ -18,17 +18,10 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <input
+        className="search-bar"
         id="search"
         onChange={[Function]}
         placeholder="Enter a name"
-        style={
-                Object {
-                        "borderRadius": "50px",
-                        "fontSize": "18px",
-                        "height": "25px",
-                        "width": "200px",
-                      }
-        }
         value={undefined}
 />,
     },
@@ -38,15 +31,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
+        "className": "search-bar",
         "id": "search",
         "onChange": [Function],
         "placeholder": "Enter a name",
-        "style": Object {
-          "borderRadius": "50px",
-          "fontSize": "18px",
-          "height": "25px",
-          "width": "200px",
-        },
         "value": undefined,
       },
       "ref": null,
@@ -62,17 +50,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <input
+          className="search-bar"
           id="search"
           onChange={[Function]}
           placeholder="Enter a name"
-          style={
-                    Object {
-                              "borderRadius": "50px",
-                              "fontSize": "18px",
-                              "height": "25px",
-                              "width": "200px",
-                            }
-          }
           value={undefined}
 />,
       },
@@ -82,15 +63,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "className": "search-bar",
           "id": "search",
           "onChange": [Function],
           "placeholder": "Enter a name",
-          "style": Object {
-            "borderRadius": "50px",
-            "fontSize": "18px",
-            "height": "25px",
-            "width": "200px",
-          },
           "value": undefined,
         },
         "ref": null,

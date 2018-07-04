@@ -19,12 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": <styled.text>
         <h1
-                style={
-                        Object {
-                                "backgroundColor": "red",
-                                "display": "inline",
-                              }
-                }
+                className="title"
         >
                  
                  
@@ -38,12 +33,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <h1
-          style={
-                    Object {
-                              "backgroundColor": "red",
-                              "display": "inline",
-                            }
-          }
+          className="title"
 >
            
            
@@ -60,10 +50,7 @@ ShallowWrapper {
             undefined,
             " ",
           ],
-          "style": Object {
-            "backgroundColor": "red",
-            "display": "inline",
-          },
+          "className": "title",
         },
         "ref": null,
         "rendered": Array [
@@ -85,12 +72,7 @@ ShallowWrapper {
       "props": Object {
         "children": <styled.text>
           <h1
-                    style={
-                              Object {
-                                        "backgroundColor": "red",
-                                        "display": "inline",
-                                      }
-                    }
+                    className="title"
           >
                      
                      
@@ -104,12 +86,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": <h1
-            style={
-                        Object {
-                                    "backgroundColor": "red",
-                                    "display": "inline",
-                                  }
-            }
+            className="title"
 >
              
              
@@ -126,10 +103,7 @@ ShallowWrapper {
               undefined,
               " ",
             ],
-            "style": Object {
-              "backgroundColor": "red",
-              "display": "inline",
-            },
+            "className": "title",
           },
           "ref": null,
           "rendered": Array [

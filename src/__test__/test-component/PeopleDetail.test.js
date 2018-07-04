@@ -9,11 +9,12 @@ describe('PeopleDetail component', () => {
       let detail = shallow(<PeopleDetail />);
       expect(detail).toMatchSnapshot();
     });
+
+    // it('should pass props from parent component correctly', () => {
+    //   let peopleDetail = mount(<PeopleDetail details = {"Luke SkyWalker"}/>);
+    //   expect(peopleDetail.props().details).toBe("Luke SkyWalker");
+    // })
   });
 
-  it('should pass props from parent component correctly', () => {
-    let peopleDetail = mount(<PeopleDetail details = {"Luke SkyWalker"}/>);
-    expect(peopleDetail.props().details).toBe("Luke SkyWalker");
-  })
 
 })
