@@ -1,0 +1,19 @@
+.grid-style {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: -webkit-fill-available; 
+}
+
+.row-title {
+  background-color: white;
+  padding-bottom: 1%
+}
+
+.row-button {
+  margin-top: 5%
+}
+
+.stars-page  {
+  margin-top: 2.5%
+}
