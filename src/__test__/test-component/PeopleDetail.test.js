@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 import PeopleDetail from '../../components/PeopleDetail';
 
 describe('PeopleDetail component', () => {
-
+  
   describe('renders components', ()=> {
     it('should render components correctly', () => {
       let detail = shallow(<PeopleDetail />);
