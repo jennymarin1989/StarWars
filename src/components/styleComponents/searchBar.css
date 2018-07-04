@@ -1,8 +1,9 @@
 .search-bar {
 
-  width: 200px;
-  height: 25px;
-  border-radius: 50px;
-  font-size: 18px
+  width: 12em;
+  height: 1.5em;
+  border-radius: 30px;
+  font-size: 18px;
+  text-align: center;
   
 }

@@ -84,10 +84,11 @@ If given more time, I would improve the app by:
  - Improving app styling using more bootstrap and styled components
  - Adding react router so the search component will be rendered in another page
  - clearing the input tag, so it clears after the serch
+ 
 
 One of the biggest challenges I found in this project was testing the fetch function in the API, I wasn't able to mock the function using enzyme, so I couldn't pass this failing test, I spent time reserching about it. If given more time I would find the solution to pass the test. 
 
-I had failing test when I tested onclick simulation and an error message in .map() function, Failing tests were commented out but I'll keep working on it to identify the cause of the problem.
+I had failing test when I tested onclick simulation and an error message in .map()function, Failing tests were initially commented out but I keep working on it to identify the cause of the problem.
 
 Retrieving the data from the API and pass it down as a prop to the child component was also a challenge, to be able to complete this task, I had to convert the object obtained from the API to an Array of values.
 
