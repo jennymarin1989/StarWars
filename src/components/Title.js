@@ -1,5 +1,6 @@
 import React from 'react';
 import StyleTitle from './styleComponents/StyleTitle';
+import './styleComponents/Title.css';
 
 const Title = (props) => {
 
@@ -7,7 +8,7 @@ const Title = (props) => {
 
     <div>
       <StyleTitle>
-         <h1 style={{ backgroundColor: 'red', display: 'inline' }}> { props.header } </h1>
+         <h1 className="title"> { props.header } </h1>
       </StyleTitle>
     </div>  
 

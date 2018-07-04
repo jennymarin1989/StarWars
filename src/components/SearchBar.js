@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styleComponents/searchBar.css';
 
 class SearchBar extends Component {
   constructor(props){
@@ -25,7 +26,8 @@ class SearchBar extends Component {
           placeholder="Enter a name" 
           value={this.props.state} 
           onChange={this.handleChange}
-          style={{width: '200px', height: '25px', borderRadius: '50px', fontSize:'18px'}}/>
+          className="search-bar"
+        />
       </div>  
     );
   }

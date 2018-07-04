@@ -8,8 +8,8 @@ const Button = (props) => {
   return (
 
     <div>
-      <StyleButton>
       <h2 className="button-header">CLick here to search for People!</h2>
+      <StyleButton>
         <button 
           id='homepage-button' 
           onClick={props.onClick}>
