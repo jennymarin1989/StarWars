@@ -13,7 +13,7 @@ As a user,
 So I can get information about People from Starwars,
 I want to be able to search for a specific character
 
-AS a user,
+As a user,
 So is easy for me to find the People from StarWars,
 I want to be able to use an autocomplete search
 
@@ -52,3 +52,52 @@ Screenshot of the app:
 <p>
 <img src="https://user-images.githubusercontent.com/29259526/42257883-c74fa84a-7f50-11e8-82e3-315eb9d1330c.png" width="700" ="align-center">
 </p>
+
+## Getting started
+
+This instructions will get you a copy of the project up on your local machine for development and testing purposes
+
+### Installing
+
+Clone the project to your local directory
+- $git clone https://github.com/jennymarin1989/StarWars.git
+- $cd starwars
+- $npm install
+
+### Testing
+
+Run tests:
+
+- $npm run test
+
+### Deployment
+
+- $npm start
+
+## Thoughts
+
+If given more time, I would improve the app by:
+
+ - Improving and refactoring unit tests
+ - Spending more time researching and passing failing test
+ - Adding User interface testing like Cypress
+ - Improving app styling using more bootstrap and styled components
+ - Adding react router so the search component will be rendered in another page
+ - clearing the input tag, so it clears after the serch
+
+One of the biggest challenges I found in this project was testing the fetch function in the API, I wasn't able to mock the function using enzyme, so I couldn't pass this failing test, I spent time reserching about it. If given more time I would find the solution to pass the test. 
+
+I had failing test when I tested onclick simulation and an error message in .map() function, Failing tests were commented out but I'll keep working on it to identify the cause of the problem.
+
+Retrieving the data from the API and pass it down as a prop to the child component was also a challenge, to be able to complete this task, I had to convert the object obtained from the API to an Array of values.
+
+# Technologies
+
+- Javascript
+- React.js
+- Enzyme
+- Jest
+
+# Author
+
+Jenny Arenas
