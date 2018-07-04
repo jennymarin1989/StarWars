@@ -8,6 +8,6 @@ describe('StyleButton', () =>{
   it('returns title with specific style', ()=>{
     let button = shallow(<StyleButton />)
     expect(button).toMatchSnapshot();
-    expect(button).toHaveStyleRule('height', '100px', 'margin-top', '150px', 'padding-left', '0px', 'padding-right', '0px');
+    expect(button).toHaveStyleRule('height', '10em', 'margin-top', '5%', 'width', '15em');
   })
 })
