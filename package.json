@@ -20,6 +20,8 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.1",
     "jest-cli": "^20.0.4",
     "jest-fetch-mock": "^1.6.5",
     "react-dom": "^16.4.1",
