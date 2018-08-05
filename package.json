@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gulp-dest": "^0.2.3",
+    "gulp-pipe": "^1.0.4",
     "jest-styled-components": "^4.11.0-1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
